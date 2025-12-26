@@ -1,12 +1,8 @@
 
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-<<<<<<< HEAD
-import { LayoutDashboard, FileText, Users, Settings, LogOut, Files, Menu, X, Megaphone, Code2 } from 'lucide-react';
-=======
 import { LayoutDashboard, FileText, Users, Settings, LogOut, Files, Menu, X, Megaphone, Code2, Zap, Radio } from 'lucide-react';
 import { autoPilot } from '../services/autoPilotService';
->>>>>>> 81afd11 (Update admin pages, services, and editors)
 
 const AdminLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const location = useLocation();
