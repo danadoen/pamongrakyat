@@ -56,17 +56,10 @@ export interface AppSettings {
   showAds: boolean;
   maintenanceMode: boolean;
   breakingNewsSpeed: number;
-<<<<<<< HEAD
-  // AI Configuration
-  googleApiKey?: string;
-  // TinyMCE Configuration
-  tinymceApiKey?: string;
-=======
   // TinyMCE Configuration
   tinymceApiKey?: string;
   // Gemini AI Configuration
   aiSystemInstruction?: string;
->>>>>>> 81afd11 (Update admin pages, services, and editors)
   // Social Media
   socialFacebook?: string;
   socialTwitter?: string;
