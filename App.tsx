@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import ArticleDetail from './pages/ArticleDetail';
 import DynamicPage from './pages/DynamicPage';
@@ -13,10 +13,7 @@ import UsersPage from './pages/admin/Users';
 import SettingsPage from './pages/admin/Settings';
 import BannerAds from './pages/admin/BannerAds';
 import ApiManagement from './pages/admin/ApiManagement';
-<<<<<<< HEAD
-=======
 import ViralGenerator from './pages/admin/ViralGenerator';
->>>>>>> 81afd11 (Update admin pages, services, and editors)
 
 function App() {
   return (
@@ -40,10 +37,7 @@ function App() {
         <Route path="/admin/settings" element={<SettingsPage />} />
         <Route path="/admin/banners" element={<BannerAds />} />
         <Route path="/admin/api-management" element={<ApiManagement />} />
-<<<<<<< HEAD
-=======
         <Route path="/admin/viral-generator" element={<ViralGenerator />} />
->>>>>>> 81afd11 (Update admin pages, services, and editors)
       </Routes>
     </Router>
   );
